@@ -23,8 +23,8 @@ RETURN TYPE: the return type defines and constrains the data type of the value r
 eg: 
 public class demo{
 public static void double Value(double a, double b){
-	double sum=0/2.0;
-	sum=(a+b);
+	double sum=0;
+	sum=(a+b)/2.0;
 	return sum;
 }
 public static void  main(String[] args0{
